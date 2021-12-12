@@ -1,0 +1,39 @@
+DATOS DE LOS MEDICAMENTOS EN LA BASE DE DATOS:
+
+INSERT INTO medicamento VALUES (1,'254644','Apis en tubo','2014-01-02','2025-06-25',25000.00,'RKP2UVVLG2DCE','images/home/apist_tubo.jpg','images/portfolio/apistubo.PNG',2);
+INSERT INTO medicamento VALUES (2,'768679','Calcarea','2017-04-09','2020-08-11',20000.00,'YA87JZFT3S2HY','images/home/calcarea.jpg','images/portfolio/calcarea.PNG',2);
+INSERT INTO medicamento VALUES (3,'676758','Cartil','2010-05-26','2030-07-13',30000.00,'7Z5HM5JG48CQ8','images/home/cartil.jpg','images/portfolio/cartil.PNG',2);
+INSERT INTO medicamento VALUES (4,'097887','Colocynthis','2012-07-17','2025-06-15',40000.00,'C3Y2W9Q4QJW7N','images/home/colocynthis.jpg','images/portfolio/colocynthis.PNG',2);
+INSERT INTO medicamento VALUES (5,'847595','Drago','2018-12-31','2021-05-17',45000.00,'3VPAALJSKU8QS','images/home/drago.jpg','images/portfolio/drago.PNG',2);
+INSERT INTO medicamento VALUES (6,'988989','Echinacea','2017-11-09','2027-04-19',70000.00,'KGYB2JJECR6MN','images/home/echinacea.jpg','images/portfolio/echinacea.PNG',2);
+INSERT INTO medicamento VALUES (7,'237874','Hipucastanum','2016-09-05','2024-03-21',21000.00,'9AYJA8N4BEGNS','images/home/hipucastanum.jpg','images/portfolio/hipocastanum.PNG',2);
+INSERT INTO medicamento VALUES (8,'123283','Plata Coloidal','2018-02-10','2024-02-23',15000.00,'QFMZAWJEYBHPN','images/home/histaminum.jpg','images/portfolio/histaminum.PNG',2);
+
+
+INSERT INTO medicamento VALUES (11,'462287','Quassia','2013-12-27','2028-08-29',27000.00,'DJEGWD7ZUMJ2N','images/home/quessia.jpg','images/portfolio/quassia.PNG',1);
+INSERT INTO medicamento VALUES (12,'809587','Sinius','2019-04-22','2027-02-02',36000.00,'TJB9S4X8RM6HS','images/home/sinus.jpg','images/portfolio/sinius.PNG',1);
+INSERT INTO medicamento VALUES (13,'283748','Sulphor','2020-08-25','2026-06-04',19000.00,'PR69F7E5U4L5L','images/home/sulphur.jpg','images/portfolio/sulphur.PNG',1);
+INSERT INTO medicamento VALUES (14,'915425','Syzygium','2019-02-01','2025-07-17',27000.00,'7KX4MDKZAV94L','images/home/syzygium.jpg','images/portfolio/syzygium.PNG',1);
+
+INSERT INTO medicamento VALUES (15,'087607','ibuprofeno','2013-12-27','2028-08-29',27000.00,'LNEBRKFB23SQU','images/home/product6.jpg',1);
+INSERT INTO medicamento VALUES (16,'675868','cholesterenium','2019-04-22','2027-02-02',36000.00,'BGZW6WHAK4AW8','images/home/product5.jpg',1);
+INSERT INTO medicamento VALUES (17,'329488','china','2020-08-25','2026-06-04',19000.00,'NEBHFLAPFF2KN','images/home/product4.jpg',1);
+INSERT INTO medicamento VALUES (18,'309484','castus','2019-02-01','2025-07-17',27000.00,'8YZRP94XUE6WL','images/home/product3.jpg',1);
+INSERT INTO medicamento VALUES (19,'934845','Myosotis','2016-10-19','2021-08-15',69000.00,'FVZLWXEPBFDH2','images/home/product2.jpg',1);
+INSERT INTO medicamento VALUES (22,'924845','Apis','2016-10-19','2021-08-15',69000.00,'UE66MACHBU9AE','images/home/product1.jpg',1);
+
+DATOS DEL BLOG EN LA BASE DE DATOS:
+
+insert blog (Codigo,fechaB,imagenB,texto) values('11111','2020-09-10','images/blog/man-one.jpg','Primer prueba de comentario en el blog');
+
+insert blog (Codigo,fechaB,imagenB,texto) values('22222','2001-05-03','images/blog/man-two.jpg','Primer prueba de comentario en el blog');
+
+insert blog (Codigo,fechaB,imagenB,texto) values('33333','2004-02-01','images/blog/man-three.jpg','Primer prueba de comentario en el blog');
+
+DATOS DE LOS USUARIOS EN LA BASE DE DATOS:
+
+insert usuario (Cedula,nombre,apellido,telefono,email,tiporol,user,password) values('3454353','Jonathan Andres','Hernandez','324432432','jahernandez@gmail.com','Administrador','JHernandez','202cb962ac59075b964b07152d234b70');
+
+insert usuario (Cedula,nombre,apellido,telefono,email,tiporol,user,password) values('42143412','Felipe Andres','Valbuena','576577678','felipeValbuena@gmail.com','Doctor','FValbuena','caf1a3dfb505ffed0d024130f58c5cfa');
+
+insert usuario (Cedula,nombre,apellido,telefono,email,tiporol,user,password) values('25436534','Pablo Andres','Amaya','5432542','pabloamaya@gmail.com','Cliente','PAmaya','950a4152c2b4aa3ad78bdd6b366cc179');
